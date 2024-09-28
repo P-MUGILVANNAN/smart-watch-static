@@ -1,0 +1,133 @@
+body{
+  background-color: cadetblue;
+  margin: 10px;
+}
+.navbar {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(168, 169, 125);
+}
+.nav-image img{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin: 5px;
+}
+.nav-logo{
+  text-indent: 3px;
+}
+.nav-items {
+  display: flex;
+  justify-content: end;
+  gap: 80px;
+  list-style-type: none;
+}
+.nav-items a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(9, 9, 9);
+}
+.nav-items a:hover {
+  text-decoration: underline;
+}
+.home {
+  background-image: url("https://images.herzindagi.info/image/2024/May/Fireboltt-Smartwatch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home h1 {
+  text-align: center;
+  padding: 170px;
+  font-size: 60px;
+  color: white;
+}
+.home p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.product-section {
+  height: 110vh;
+}
+.product-container {
+  box-shadow: 3px 3px 3px rgb(178, 179, 178);
+  width: 20%;
+  height: 400px;
+  border: none;
+  border-radius: 10px;
+}
+.product-container .images img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+.main-container {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.about {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+}
+.about-img img {
+  height: 700px;
+  border-radius: 50px;
+}
+.about-content p{
+    font-size: 30px;
+}
+
+.contact-section{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 60vh;
+}
+.contact-content h1{
+    text-align: center;
+    font-size: 55px;
+}
+.contact-content form{
+    margin-left: 42%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-content form input{
+    width: 300px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+}
+.contact-content form button{
+    width: 100px;
+    border: none;
+    background-color: burlywood;
+    border-radius: 30px;
+    height: 30px;
+}
+.contact-content form label{
+    font-size: 30px;
+}
+
+.icons{
+  margin-left: 43%;
+  margin-top: 20px;
+}
+  .accessories-container{
+  
+   justify-content: space-around;
+  }
+  .product-container {
+    box-shadow: 3px 3px 3px rgb(178, 179, 178);
+    width: 20%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+  }
